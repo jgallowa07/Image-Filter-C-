@@ -1,0 +1,9 @@
+Entered program from blah
+LRConcat: about to update
+PNMreader: about to execute
+PNMreader: done executing
+PNMreader: about to execute
+PNMreader: done executing
+LRConcat: done updating
+LRConcat: about to execute
+LRConcat: done executing, time : 0.069898
