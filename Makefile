@@ -1,3 +1,4 @@
+
 SRC=myRunner.C image.C sink.C source.C PNMreader.C PNMwriter.C filters.C logging.C 
 OBJ=$(SRC:.C=.o)
 

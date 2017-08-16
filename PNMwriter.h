@@ -1,3 +1,4 @@
+
 #include <sink.h>
 
 #ifndef PNMWRITER_H

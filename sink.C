@@ -1,3 +1,4 @@
+
 #include <sink.h>
 sink::sink()
 {
