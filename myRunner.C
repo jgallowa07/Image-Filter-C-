@@ -25,18 +25,81 @@ int main(int argc, char *argv[])
 
 
 
-    PNMreader reader("./myImages/puddles.pnm");
-
-	LRConcat lr1;
-
-	lr1.SetInput(reader.GetOutput());
-	lr1.SetInput2(reader.GetOutput());
+    PNMreader reader1("./myImages/Chalk1.pnm");
+    PNMreader reader2("./myImages/Chalk2.pnm");
+    PNMreader reader3("./myImages/Chalk3.pnm");
+    PNMreader reader4("./myImages/Chalk4.pnm");
 	
-    
-    Image *finalImage = lr1.GetOutput();
+	TBConcat tb1;
+	TBConcat tb2;
+	LRConcat lr1;
+	LRConcat lr2;
+	LRConcat lr3;
+	Blender bl1;
+	Blender bl2;
+	Mirror mr1;
+	Mirror mr2;
+	Mirror mr3;
+	Rotate r1;
+	Rotate r2;
+	Rotate r3;
+	Rotate r4;
+	Rotate r5;
+	Shrinker sr;
+	Grayscale g1;	
+	/*
+	Color c1(2160,1440,0,255,255);
 
+	r1.SetInput(reader2.GetOutput());
+	mr1.SetInput(r1.GetOutput());
+	
+	lr1.SetInput(mr1.GetOutput());
+	lr1.SetInput2(r1.GetOutput());
+	
+	r2.SetInput(lr1.GetOutput());
+	r3.SetInput(r2.GetOutput());
+	
+	bl1.SetFactor(.5);
+	
+	bl1.SetInput(r3.GetOutput());
+	bl1.SetInput2(lr1.GetOutput());
 
+	bl2.SetFactor(.8);
+	bl2.SetInput(bl1.GetOutput());
+	bl2.SetInput2(c1.GetOutput());
+	
+	r4.SetInput(bl2.GetOutput());	
+*/
+	
+	
+	bl1.SetFactor(.3);
 
+	r1.SetInput(reader1.GetOutput());
+	mr1.SetInput(r1.GetOutput());
+	
+	lr1.SetInput(r1.GetOutput());
+	lr1.SetInput2(mr1.GetOutput());
+
+	r2.SetInput(lr1.GetOutput());
+	mr2.SetInput(r2.GetOutput());
+	
+	lr2.SetInput(r2.GetOutput());
+	lr2.SetInput2(mr2.GetOutput());
+	
+	sr.SetInput(lr2.GetOutput());
+	
+	bl1.SetInput(sr.GetOutput());
+	bl1.SetInput2(reader4.GetOutput());
+
+	r3.SetInput(bl1.GetOutput());
+	mr3.SetInput(r3.GetOutput());
+	
+	lr3.SetInput(r3.GetOutput());
+	lr3.SetInput2(mr3.GetOutput());
+			
+	//g1.SetInput(bl1.GetOutput());
+			
+    Image *finalImage = lr3.GetOutput();
 
     try
     {

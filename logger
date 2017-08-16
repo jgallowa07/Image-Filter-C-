@@ -1,9 +1,43 @@
 Entered program from blah
 LRConcat: about to update
+Rotate: about to update
+Blender: about to update
+Shrinker: about to update
+LRConcat: about to update
+Rotate: about to update
+LRConcat: about to update
+Rotate: about to update
 PNMreader: about to execute
 PNMreader: done executing
-PNMreader: about to execute
-PNMreader: done executing
+Rotate: done updating
+Rotate: about to execute
+Rotate: done executing, time : 0.029555
+Mirror: about to execute
+Mirror: done executing, time : 0.015607
 LRConcat: done updating
 LRConcat: about to execute
-LRConcat: done executing, time : 0.069898
+LRConcat: done executing, time : 0.047192
+Rotate: done updating
+Rotate: about to execute
+Rotate: done executing, time : 0.050138
+Mirror: about to execute
+Mirror: done executing, time : 0.030189
+LRConcat: done updating
+LRConcat: about to execute
+LRConcat: done executing, time : 0.083828
+Shrinker: done updating
+Shrinker: about to execute
+Shrinker: done executing, time : 0.020097
+PNMreader: about to execute
+PNMreader: done executing
+Blender: done updating
+Blender: about to execute
+Blender: done executing, time : 0.053978
+Rotate: done updating
+Rotate: about to execute
+Rotate: done executing, time : 0.023302
+Mirror: about to execute
+Mirror: done executing, time : 0.016225
+LRConcat: done updating
+LRConcat: about to execute
+LRConcat: done executing, time : 0.046824
