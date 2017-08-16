@@ -11,33 +11,33 @@ PNMreader: about to execute
 PNMreader: done executing
 Rotate: done updating
 Rotate: about to execute
-Rotate: done executing, time : 0.029555
+Rotate: done executing, time : 0.023583
 Mirror: about to execute
-Mirror: done executing, time : 0.015607
+Mirror: done executing, time : 0.018379
 LRConcat: done updating
 LRConcat: about to execute
-LRConcat: done executing, time : 0.047192
+LRConcat: done executing, time : 0.042532
 Rotate: done updating
 Rotate: about to execute
-Rotate: done executing, time : 0.050138
+Rotate: done executing, time : 0.046784
 Mirror: about to execute
-Mirror: done executing, time : 0.030189
+Mirror: done executing, time : 0.029190
 LRConcat: done updating
 LRConcat: about to execute
-LRConcat: done executing, time : 0.083828
+LRConcat: done executing, time : 0.075074
 Shrinker: done updating
 Shrinker: about to execute
-Shrinker: done executing, time : 0.020097
+Shrinker: done executing, time : 0.015493
 PNMreader: about to execute
 PNMreader: done executing
 Blender: done updating
 Blender: about to execute
-Blender: done executing, time : 0.053978
+Blender: done executing, time : 0.047725
 Rotate: done updating
 Rotate: about to execute
-Rotate: done executing, time : 0.023302
+Rotate: done executing, time : 0.017614
 Mirror: about to execute
-Mirror: done executing, time : 0.016225
+Mirror: done executing, time : 0.014108
 LRConcat: done updating
 LRConcat: about to execute
-LRConcat: done executing, time : 0.046824
+LRConcat: done executing, time : 0.035210
